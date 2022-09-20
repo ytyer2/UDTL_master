@@ -1,0 +1,33 @@
+09-19 19:41:39 model_name: cnn_features_1d
+09-19 19:41:39 data_name: PHMFFT
+09-19 19:41:39 data_dir: D:\Data\PHM2009gearbox\PHM_Society_2009_Competition_Expanded_txt
+09-19 19:41:39 transfer_task: [[0], [3]]
+09-19 19:41:39 normlizetype: mean-std
+09-19 19:41:39 cuda_device: 0
+09-19 19:41:39 checkpoint_dir: ./checkpoint
+09-19 19:41:39 pretrained: False
+09-19 19:41:39 batch_size: 64
+09-19 19:41:39 num_workers: 0
+09-19 19:41:39 bottleneck: True
+09-19 19:41:39 bottleneck_num: 256
+09-19 19:41:39 last_batch: False
+09-19 19:41:39 distance_metric: False
+09-19 19:41:39 distance_loss: MK-MMD
+09-19 19:41:39 trade_off_distance: Step
+09-19 19:41:39 lam_distance: 1
+09-19 19:41:39 domain_adversarial: True
+09-19 19:41:39 adversarial_loss: CDA+E
+09-19 19:41:39 hidden_size: 1024
+09-19 19:41:39 trade_off_adversarial: Step
+09-19 19:41:39 lam_adversarial: 1
+09-19 19:41:39 opt: adam
+09-19 19:41:39 lr: 0.001
+09-19 19:41:39 momentum: 0.9
+09-19 19:41:39 weight_decay: 1e-05
+09-19 19:41:39 lr_scheduler: step
+09-19 19:41:39 gamma: 0.1
+09-19 19:41:39 steps: 150, 250
+09-19 19:41:39 middle_epoch: 50
+09-19 19:41:39 max_epoch: 300
+09-19 19:41:39 print_step: 50
+09-19 19:41:39 using 1 gpus
